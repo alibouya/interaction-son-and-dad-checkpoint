@@ -1,0 +1,16 @@
+<div class="container">
+    <p>Parent</p>
+<hr>
+<label for="usr">Color:</label>
+<br>
+
+
+<hr>
+
+<div [style.background-color]="parentColor" class="alert alert-success">Ali Bouyahya</div>
+<app-fils (sendColorFromParent)="treatdatafromchild($event)" ></app-fils>
+
+<hr>
+</div>
+
+ 
